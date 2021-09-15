@@ -1,0 +1,116 @@
+<style>
+  body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+body{
+   margin: 0px;
+   padding: 0px;
+   background-image: linear-gradient( to right top ,rgb(26, 24, 23), rgb(219, 111, 111),rgb(21, 93, 248));
+   color: white;
+  
+}
+.main::before{
+  content: "";
+      position: absolute;
+      height: 800px;
+      width: 1570px;
+      background: url('../static/pic\ \(2\).jpg')no-repeat ;
+      z-index: -1;
+      opacity: 0.75;
+      background-size: 100%;
+      margin-top: 90px;
+}
+/* .main{
+  border: 2px solid red;
+} */
+.container{
+    border: 2px solid red;
+    margin: 112px 37px 43px 405px;
+    padding: 34px;
+    width: 80%;
+    display: block;
+    height: 600px;
+    background-color: rgb(240, 212, 212);
+    border-top-right-radius: 19px;
+    border-bottom-left-radius: 19px;
+    margin-left: -270px;
+    opacity: 0.94;
+    
+}
+.hs h2{
+    margin: -18px 27px 0px 98px;
+    padding: 20px;
+}
+.btn{
+    margin: 21px 27px -8px 37px;
+}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background-image: linear-gradient( to right top ,rgb(93, 216, 253), rgb(59, 92, 161),rgb(245, 4, 245));
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-image: linear-gradient( to right top ,rgb(93, 216, 253), rgb(59, 92, 161),rgb(245, 4, 245));
+  color: white;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+  width: 74%;
+  opacity: 0.9;
+  border-radius: 17px;
+}
+.hars{
+    margin: 21px 54px 12px 102px;
+    padding:20px;
+}
+.fafa-facebook{
+    border: 2px solid black;
+}
+.hsh{
+    border: 2px solid black;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  border: 2px solid black;
+  margin: -7px 2px -6px 85px;
+  padding: -1px 25px 9px 22px;
+}
+.fa-google {
+  background: red;
+  color: white;
+  border: 2px solid black;
+  margin:9px 22px 18px 8px;
+}
+a.fa-facebook{
+    text-decoration: none;
+}
+a.fa-google{
+    text-decoration: none;
+}
+.hl{
+    margin: 18px 40px 36px 56px;
+    padding: 19px;
+}
+</style>

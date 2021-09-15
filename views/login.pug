@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet">
+style 
+    include ../static/login.css
+script(src= '/static/validate.js')
+</head>
+<body>
+    <div class="main">
+    <h1 style="margin-left: 370px; color: black; font-family: 'Dancing script', cursive;"> Your College Experience could help others</h1>
+        <hr style="background-color: rgb(240, 14, 14); width: 70%;">
+        <!-- <img src="../static/pic (2).jpg" style="width: 700px; height: 400px; margin-left: 90px; margin-top: 150px; opacity: 0.7;"></img> -->
+        <form name="contactForm" action="/login" method="post" onsubmit="return vaidateForm()"style="max-width:500px;margin:auto">
+            <div class="container">
+            <div class="hs">
+        <h2 style="font-family: 'Dancing Script', cursive; color: rgb(136, 85, 85); font-size: 28px;">Personal Details </h2></div>
+    <div class="input-container">
+        <i class="fa fa-name icon"></i>
+        <input class="input-field" id="name" type="text" placeholder="Name" name="name">
+        <div class="error" id="nameErr"></div>
+    </div>
+    <div class="input-container">
+        <i class="fa fa-envelope icon" ></i>
+        <input class="input-field" type="text" id="email" placeholder="Email" name="Email">
+        <div class="error" id="emailErr"></div>
+    </div>
+      
+    <div class="input-container">
+        <i class="fa fa-phone icon"></i>
+        <input class="input-field" type="contact" id="contact" placeholder="Contact" name="contact">
+        <div class="error" id="contactErr"></div>
+    </div>
+    <div class="input-container">
+        <i class="fa fa-suitcase icon"></i>
+        <input class="input-field" type="Stram" id="stream" placeholder="Stream In College" name="Stream">
+    </div>
+
+    
+      <button type="submit" class="btn">LOGIN</button>
+      <div class="hars" style="color: black;">
+          or login with
+      </div>
+      <a href="#" class="fa fa-facebook">Facebook</a>
+      <a href="#" class="fa fa-google">Google</a>
+    
+    </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    style 
+    include ../static/Survey.css
+</head>
+<body>
+        <div class="main">
+        <img src="../static/circle.jpg" style="width: 300px; height: 300px; margin-left: 50px;">
+        <h1 style="font-size: 60px; margin-left: 490px; color: salmon;" >College Survey</h1>
+        <hr style="background-color: slateblue; width: 55%; height: 3px; margin-top: -3px;" >
+        <h2 style="font-size: 43px; margin-left: 175px;">Your Review</h2>
+        <hr style="background-color: red;width: 29%; height: 2px; margin-top: -20px; margin-left: 69px;">
+        <p style="font-weight: 900; font-size: 20px;">Your honest review about Placement,Infrastructure and Faculities will help thoushands of students make an informed college decision.</p>
+        <form action="submit">
+        <h3 style="font-weight: 700;">Placement :</h3> 
+        <p>The Placement is the one of the most important factor the student see on chossing the college. </p>
+        <input type="radio" name="Placement">Excellent,Placement above 8lkh p.a. <br>
+        <input type="radio" name="Placement">Good,Placement in betwween 3lkh to 8lkh p.a.<br>
+        <input type="radio" name="Placement">Bad, Placement below 3lkh.
+        <h4>Infrastructure for your Course and Hostel</h4>
+        <P>* The Infrastructure shows how the well and maintained is your college .  </P>
+        <input type="radio" name="Infrastructure">Excellent,Infrastructure is well maintained, Every facilties are provided within the college. <br>
+        <input type="radio" name="Infrastructure">Good,Infrastructure are satisfactory<br>
+        <input type="radio" name="Infrastructure">Bad,Not well maintained
+        <h4>Faculty</h4>
+        <P> * The Teacher are the one whoo can shape the future of child.</P>
+        <input type="radio" name="Faaculty">The teachers are well educated and explains the conccept very well and explains the concept as many as times you want. <br>
+        <input type="radio" name="Faculty">The teacher are well educated but not explains the concepts very well  no repetition of concept explaining after the lecture period. <br>
+        <input type="radio" name="Faculty">The teachers have not well knowledge about thier subjects.
+
+
+        <h4>What was/is the approximate Total Fees changed by your College for this course</h4>
+        <pre>* Please write below the Average Total Fees which includes Tution, Hostel , Library ,Admission fees for one year</pre>
+        <input type="text" style="width: 400px; height: 20px;">
+        <h4>Rating</h4>
+        <p>* Rate the college out of 5 </p>
+        <input type="number" style="width: 60px;" placeholder="Rating">
+        <h4>Would you recommend others to take admissions in your college?</h4>
+        <input type="radio" name="Recommend">Yes
+        <input type="radio" name="Recommend">No
+        <br>
+        <br>
+        <br>
+        <input type="submit" style=" border-radius: 10px; font-size: 24px; background-color: seashell; color: black; margin-left: 290px;">
+        </div>
+        </form>
+</body>
+</html>
